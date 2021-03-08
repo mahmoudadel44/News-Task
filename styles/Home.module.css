@@ -1,17 +1,71 @@
+/* start Container Style */
 .container{
     background-color: #F5F5F5;
     max-width: 85%;
     margin: auto;
 }
-.row{
-    background-color: red;
+/* end Container Style */
+
+/* start fixedDiv Style */
+
+.fixedDiv{
+    width: 100%;
+    background: #fff;
 }
+/* end fixedDiv Style */
+/* start News Card Style */
 .card{
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 15px 20px;
     background: #fff;
     width: 85%;
     margin:0px auto 22px;
     border-radius: 12px;
-    display: flex;
 }
+.card .newsContent{
+    display: flex;
+    justify-content: space-between;
+}
+.card .newsContent .newsInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card .newsContent .imageWithTitle{
+    display: flex;
+    align-items: center;
+}
+.card .newsContent .imageWithTitle img{
+width: 30px;
+height: 30px;
+margin-right: 12px;
+}
+.card .newsContent .wifi{
+    transform: rotate(45deg); 
+}
+.card .newsDate{
+color: #627688;
+}
+.card .newsDate p{
+   margin-bottom: 0px;
+   margin-top: 0px;
+    }
+.card hr{
+    border: 1px solid #EEE;
+    width: 100%;
+}
+.card .keywords{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card .keywords .Keyword{
+    border-radius: 12px;
+    border:1px solid #00A47C;
+    padding: 2px 8px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+/* end News Card Style */

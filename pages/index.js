@@ -12,16 +12,16 @@ export default function Home({ news }) {
   return (
     <div className={styles.container}>
       <Header />
-      <div className="row mt-3">
-        <div className="col-md-3"></div>
-        <div className="col-md-6">
+      <div className="row mt-5 justify-content-center pt-2">
+      <div className="col-md-2 fixed bg-white d-none d-lg-block mt-1"></div>
+        <div className="col-md-6 mt-2">
           {
-            news?.map((item, index) => (
-              <NewsCard key={index} newsData={item} />
+            news?.map(item => (
+              <NewsCard key={item._id} newsData={item} />
             ))
           }
         </div>
-        <div className="col-md-3"></div>
+        <div className="col-md-2 fixed bg-white d-none d-lg-block mt-1"></div>  
       </div>
     </div>
   )
@@ -37,4 +37,3 @@ export async function getStaticProps() {
 }
 
 
-// export default Home
