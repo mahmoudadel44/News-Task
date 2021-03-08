@@ -1,0 +1,17 @@
+.container{
+    background-color: #F5F5F5;
+    max-width: 85%;
+    margin: auto;
+}
+.row{
+    background-color: red;
+}
+.card{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 14px;
+    background: #fff;
+    width: 85%;
+    margin:0px auto 22px;
+    border-radius: 12px;
+    display: flex;
+}
