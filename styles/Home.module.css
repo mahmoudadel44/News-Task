@@ -42,8 +42,17 @@ width: 30px;
 height: 30px;
 margin-right: 12px;
 }
+.card .newsContent .imageWithTitle .title{
+    font-weight: 700;
+    }
 .card .newsContent .wifi{
     transform: rotate(45deg); 
+}
+.card .newsTitle{
+    margin-top: 12px;
+}
+.card .newsTitle p{
+    font-size: 22px;
 }
 .card .newsDate{
 color: #627688;

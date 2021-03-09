@@ -9,7 +9,7 @@ function NewsCard({ newsData }) {
             <div className={styles.newsContent}>
                 <div className={styles.imageWithTitle}>
                     <div><img src={newsData.source.url} alt="newsImage" /></div>
-                    <div><h6>{newsData.source.title}</h6></div>
+                    <div className={styles.title}><h6>{newsData.source.title}</h6></div>
                 </div>
                 <div className={styles.wifi}>
                     <FontAwesomeIcon icon={faWifi} color="#00A47C" size="lg">
