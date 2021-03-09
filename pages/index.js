@@ -12,7 +12,7 @@ export default function Home({ news }) {
   return (
     <div className={styles.container}>
       <Header />
-      <div className="row mt-5 justify-content-center pt-2">
+      <div className="row mt-2 justify-content-center pt-2">
       <div className="col-md-2 fixed bg-white d-none d-lg-block mt-1"></div>
         <div className="col-md-6 mt-2">
           {

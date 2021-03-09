@@ -1,3 +1,79 @@
+
+/* start styles of  navbar */
+
+.navbar .allContents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBarBrand {
+    color: #fff;
+    margin: 6px 8px 0px 0px;
+}
+@media (min-width: 576px) {
+    .navBarBrand {
+        color: #fff;
+        margin: 4px 8px 0px 120px;
+    }    
+    }
+
+.searchIcon{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ContainerInput{
+    margin-left: 25px;
+}
+@media (min-width: 992px) { 
+    .ContainerInput{
+     display: none;
+    }
+}
+
+ .inputSearch{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 5px 21px 4px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #1c1c1d;
+    border-radius: 15px;
+}
+.inputSearch:focus{
+    border: 1px solid #EEE;
+}
+.loginButton,.registerButton{
+    border-radius: 14px;
+    border:1px solid #fff !important;
+    padding: 4px 10px;
+    width: 85px;
+}
+.loginButton{
+ 
+    background-color: transparent;
+    color: #fff;
+    margin-right: 54px;
+    
+}
+.registerButton{
+    background-color: #fff;
+    color: #00A47C;
+}
+.loginText,.registerText{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.registerText{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* end styles of navbar */
 /* start Container Style */
 .container{
     background-color: #F5F5F5;
@@ -52,7 +128,7 @@ margin-right: 12px;
     margin-top: 12px;
 }
 .card .newsTitle p{
-    font-size: 22px;
+    font-size: 20px;
 }
 .card .newsDate{
 color: #627688;
@@ -73,7 +149,7 @@ color: #627688;
 .card .keywords .Keyword{
     border-radius: 12px;
     border:1px solid #00A47C;
-    padding: 2px 8px;
+    padding: 0px 10px 3px;
     margin-right: 4px;
     margin-bottom: 5px;
 }
