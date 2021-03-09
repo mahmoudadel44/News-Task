@@ -1,6 +1,11 @@
-
+/* start Container Style */
+.container{
+    background-color: #F5F5F5;
+    max-width: 85%;
+    margin: auto;
+}
+/* end Container Style */
 /* start styles of  navbar */
-
 .navbar .allContents{
     display: flex;
     justify-content: space-around;
@@ -31,6 +36,7 @@
     }
 }
 
+
  .inputSearch{
     display: block;
     width: 100%;
@@ -45,7 +51,15 @@
     border-radius: 15px;
 }
 .inputSearch:focus{
-    border: 1px solid #EEE;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+@media (min-width: 992px) { 
+    .form-inline{
+     display: flex;
+     justify-content: center;
+    }
 }
 .loginButton,.registerButton{
     border-radius: 14px;
@@ -58,7 +72,6 @@
     background-color: transparent;
     color: #fff;
     margin-right: 54px;
-    
 }
 .registerButton{
     background-color: #fff;
@@ -74,14 +87,6 @@
     text-transform: uppercase;
 }
 /* end styles of navbar */
-/* start Container Style */
-.container{
-    background-color: #F5F5F5;
-    max-width: 85%;
-    margin: auto;
-}
-/* end Container Style */
-
 /* start fixedDiv Style */
 
 .fixedDiv{
